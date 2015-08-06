@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>LEA - XS2OS</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+		<link type="image/x-icon" href="leaicon.ico" rel="shortcut icon">
+        <link rel="stylesheet" href="ui/theme-xs2os/css/bootstrap.min.css">
+        <link rel="stylesheet" href="mxclientsystem/mxui/ui/mxui.css">
+        <link rel="stylesheet" href="ui/theme-xs2os/css/mendix-custom.css">
+    </head>
+    <body>
+        <div class="login-container">
+            <form id="loginForm" class="login-form">
+                <div class="login-logo"></div>
+                <div id="loginMessage" class="alert alert-danger login-message"></div>
+                <div class="form-group">
+                    <label id="usernameLabel" for="usernameInput">Gebruikersnaam</label> 
+                    <input id="usernameInput" class="form-control" type="text" autocorrect="off" autocapitalize="none">
+                </div>
+                <div class="form-group">
+                    <label id="passwordLabel" for="passwordInput">Wachtwoord</label> 
+                    <input id="passwordInput" class="form-control" type="password" autocorrect="off" autocapitalize="none">
+                </div>
+                <button id="loginButton" type="submit" class="btn btn-default">Login</button>
+            </form>
+        </div>
+
+        <script src="js/login_i18n.js?635742762151390352"></script>
+        <script src="js/login.js?635742762151390352"></script>
+    </body>
+</html>
