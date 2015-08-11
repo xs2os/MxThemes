@@ -7645,16 +7645,31 @@ a {
   color: #376089;
   text-shadow: 0 1px 0 #83A4C4;
 }
-.nav-tabs > li > a {
+.nav > li > a {
   text-decoration: none;
 }
-.nav-tabs > li > a:hover {
+.nav > li > a:hover {
+  text-decoration: none;
+}
+.dropdown-menu > li > a {
+  text-decoration: none;
+}
+.dropdown-menu > li > a:hover {
+  text-decoration: none;
+}
+.navbar-default .navbar-nav > li > a {
   text-decoration: none;
 }
 .navbar-inverse .navbar-nav > li > a {
   text-decoration: none;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
+  text-decoration: none;
+}
+.btn-group-justified a {
+  text-decoration: none;
+}
+.btn-group-justified a:hover {
   text-decoration: none;
 }
 .mx-datagrid .mx-datagrid-body-table .selected td {
@@ -7826,4 +7841,16 @@ a {
   background-color: #dc2c0f;
   border-color: #c4270d;
   color: #ffffff;
+}
+.xslarge label {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.1;
+}
+.xsimgcenter {
+  display: block;
+  margin: 0px auto;
+}
+.profile-desktop .mx-window {
+  width: 50%;
 }
