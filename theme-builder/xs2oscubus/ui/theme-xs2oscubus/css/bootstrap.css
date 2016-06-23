@@ -7867,3 +7867,33 @@ a {
   border-radius: 4px 4px 4px 4px !important;
   border: 1px solid #ddd !important;
 }
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 4px 10px 0 0 !important;
+}
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  position: relative;
+}
+.mx-fileinput .mx-button.mx-focus {
+  background-color: #376089 !important;
+}
+.mx-dataview-content .mx-table th label {
+  padding-right: 12px;
+}
+.mx-dataview-content .mx-table th {
+  text-align: right;
+}
+.mx-table {
+  margin-bottom: 8px;
+}
+.xsnomargin {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.xsnomargin .mx-layoutcontainer-wrapper {
+  margin: 0px !important;
+  padding: 0px !important;
+}
